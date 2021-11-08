@@ -7,6 +7,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -143,7 +144,7 @@ section:not(#portfolio) {
 }
 
 .main-nav a {
-  background-color: white;
+  background-color: #fff;
   border-radius: .5rem;
   box-shadow: 0 10px 15px -9px rgba(0, 0, 0, .3);
   display: block;
@@ -160,7 +161,7 @@ section:not(#portfolio) {
 .main-nav a:hover {
   background-color: #1a9cfc;
   box-shadow: 0 16px 15px -9px rgba(0, 0, 0, .6);
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
